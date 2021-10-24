@@ -1,6 +1,6 @@
 {
   "name": "@aacc/ginit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Easily initialize a local and remote repository",
   "author": "Aaron Casanova",
   "license": "MIT",
