@@ -29,7 +29,7 @@ GITHUB_TOKEN="abc123" npx @aacc/ginit <repo-name>
 Or globally...
 
 ```sh
-echo 'AACC_GINIT_TOKEN="abc123"' >> ~/.zshrc
+echo 'export AACC_GINIT_TOKEN="abc123"' >> ~/.zshrc
 
 npx @aacc/ginit <repo-name>
 ```
