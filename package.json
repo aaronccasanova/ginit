@@ -1,0 +1,16 @@
+{
+  "name": "@aacc/ginit",
+  "version": "0.0.1",
+  "description": "Easily initialize a local and remote repository",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {},
+  "author": "Aaron Casanova",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/core": "^3.5.1",
+    "dotenv": "^10.0.0",
+    "node-fetch": "^2.6.2",
+    "zx": "^4.2.0"
+  }
+}
