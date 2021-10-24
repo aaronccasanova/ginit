@@ -2,18 +2,30 @@
   "name": "@aacc/ginit",
   "version": "0.0.1",
   "description": "Easily initialize a local and remote repository",
+  "author": "Aaron Casanova",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronccasanova/ginit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aaronccasanova/ginit/issues"
+  },
+  "homepage": "https://github.com/aaronccasanova/ginit#readme",
+  "files": [
+    "index.js"
+  ],
   "main": "index.js",
   "bin": "index.js",
   "scripts": {},
-  "author": "Aaron Casanova",
-  "license": "MIT",
   "dependencies": {
     "@octokit/core": "^3.5.1",
     "dotenv": "^10.0.0",
     "node-fetch": "^2.6.2",
     "zx": "^4.2.0"
   },
-  "files": [
-    "index.js"
-  ]
+  "devDependencies": {}
 }
